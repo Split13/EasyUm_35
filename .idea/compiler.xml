@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="easyum" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="easyum" target="21" />
+      <module name="EasyUm_35" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>
